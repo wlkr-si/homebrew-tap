@@ -4,28 +4,28 @@
 class AgentsView < Formula
   desc "Local editor and source browser for AGENTS.md"
   homepage "https://github.com/wlkr-si/agents-view"
-  version "0.1.0"
+  version "0.1.1"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/wlkr-si/agents-view/releases/download/v0.1.0/agents-view_0.1.0_darwin_arm64.tar.gz"
-      sha256 "a436d37ef2ea0f00df340b4070a3e90f40a409342d11807e1c3e9bda431785a3"
+      url "https://github.com/wlkr-si/agents-view/releases/download/v0.1.1/agents-view_0.1.1_darwin_arm64.tar.gz"
+      sha256 "3231ea858647f86d62ccb44aa4bd85c6b2fd8e03658619925d02ad0276cc2f51"
     end
     on_intel do
-      url "https://github.com/wlkr-si/agents-view/releases/download/v0.1.0/agents-view_0.1.0_darwin_amd64.tar.gz"
-      sha256 "a5d8a3beaf36c89f48e56a6fb2330f6356fe21505a9f442c961f48649a36fdf7"
+      url "https://github.com/wlkr-si/agents-view/releases/download/v0.1.1/agents-view_0.1.1_darwin_amd64.tar.gz"
+      sha256 "d00b89845a1775c93a9767c3e974156635b54224372c6d2473f2ded806ca7b7f"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/wlkr-si/agents-view/releases/download/v0.1.0/agents-view_0.1.0_linux_arm64.tar.gz"
-      sha256 "f33dec7d165c9d5c1d5fdcffe325808c91a986565fa9154a1233851262429ca3"
+      url "https://github.com/wlkr-si/agents-view/releases/download/v0.1.1/agents-view_0.1.1_linux_arm64.tar.gz"
+      sha256 "608fda0da63ec400375fb49d2f30f27435b51350ceb0d2f59603a83e7a50a3f5"
     end
     on_intel do
-      url "https://github.com/wlkr-si/agents-view/releases/download/v0.1.0/agents-view_0.1.0_linux_amd64.tar.gz"
-      sha256 "15ab77c07158f8e7655b8ae38858e8ebc75ef01d5d268b354f833c8d4e1c2ee8"
+      url "https://github.com/wlkr-si/agents-view/releases/download/v0.1.1/agents-view_0.1.1_linux_amd64.tar.gz"
+      sha256 "7193c9da2833334734146365fd986486a2701434e702040bccb628b053cfc970"
     end
   end
 
